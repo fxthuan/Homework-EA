@@ -1,1 +1,1 @@
-# This is homeworks from Euroland IR Asia's Training Course
+# This is homeworks from Euroland Asia's Training Course
