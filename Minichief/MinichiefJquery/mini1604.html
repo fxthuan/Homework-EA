@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mini 16-04</title>
+</head>
+<body>
+   <ul>
+   		<li>HTML Tutorial</li>
+   		<li>Mongodb Tutorial</li>
+   		<li>Python Tutorial</li>
+   </ul>
+
+     <script   src="http://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous">
+
+
+	 </script>
+        
+
+        <!--Viết một code thêm thẻ <b> vào  đầu mỗi item, nội dung là index của item đó trong list-->
+        <script>
+
+	        $("ul li:first").prepend("<b>0 - </b>");
+	        $("ul li:nth-child(2)").prepend("<b>1 - </b>");
+	        $("ul li:nth-child(3)").prepend("<b>2 - </b>");
+        	
+
+        </script>
+	
+</body>
+</html>
